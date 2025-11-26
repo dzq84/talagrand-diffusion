@@ -1,18 +1,19 @@
-# Talagrand_diffusion
+# talagrand_diffusion
 
-A simple PyTorch implementation of a generative model on binary {0,1}⁷⁸⁴ pixels, inspired by framework in  
-**Talagrand's Convolution Conjecture and the Boolean Hypercube**  
-https://arxiv.org/abs/2511.19374
+A simple PyTorch implementation of a generative model on binary {0,1}⁷⁸⁴ pixels, inspired by the discrete diffusion framework in  
+<p align="center">
+  <strong>Talagrand's Convolution Conjecture and the Boolean Hypercube</strong> • <a href="https://arxiv.org/abs/2511.19374">arXiv:2511.19374</a>
+</p>
 
-![talagrand_training](talagrand_training.gif)
+![](talagrand_training.gif)
 
-**Note**: Several designs are different with original paper.
+> **Note**: This is an experimental implementation. Several design choices differ from the original theoretical construction in the paper.
 
-**Thanks**: Special thanks to Grok (xAI), help me a lot.
+> **Thanks**: Special thanks to Grok (xAI) — it helped me understand many key details of the paper.
 
 ### Citation
 
-If you find this work useful, please cite the original paper by Yuansi Chen:
+If you find this work useful, please cite the original paper:
 
 ```bibtex
 @misc{chen2025talagrandsconvolutionconjectureloglog,
@@ -21,6 +22,6 @@ If you find this work useful, please cite the original paper by Yuansi Chen:
   year    = {2025},
   eprint  = {2511.19374},
   archivePrefix = {arXiv},
-  primaryClass  = {math.PR},
+  primaryClass = {math.PR},
   url     = {https://arxiv.org/abs/2511.19374}
 }

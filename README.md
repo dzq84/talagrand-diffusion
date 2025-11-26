@@ -1,4 +1,6 @@
-# talagrand_diffusion
+<p align="center">
+  <h1 align="center">Talagrand_Diffusion</h1>
+</p>
 
 A simple PyTorch implementation of a generative model on binary {0,1}⁷⁸⁴ pixels, inspired by the discrete diffusion framework in  
 <p align="center">
